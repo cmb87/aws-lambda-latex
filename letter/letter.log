@@ -1,0 +1,1291 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (TeX Live 2017/Debian) (preloaded format=pdflatex 2018.10.16)  28 AUG 2020 14:06
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**letter.tex
+(./letter.tex
+LaTeX2e <2017-04-15>
+Babel <3.18> and hyphenation patterns for 3 language(s) loaded.
+(/usr/share/texlive/texmf-dist/tex/latex/base/letter.cls
+Document Class: letter 2014/09/29 v1.2z Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\longindentation=\dimen102
+\indentedwidth=\dimen103
+\labelcount=\count79
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+))
+\Gin@req@height=\dimen104
+\Gin@req@width=\dimen105
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip41
+\f@nch@O@elh=\skip42
+\f@nch@O@erh=\skip43
+\f@nch@O@olh=\skip44
+\f@nch@O@orh=\skip45
+\f@nch@O@elf=\skip46
+\f@nch@O@erf=\skip47
+\f@nch@O@olf=\skip48
+\f@nch@O@orf=\skip49
+)
+(/usr/share/texlive/texmf-dist/tex/latex/invoice/invoice.sty
+Package: invoice 2011/10/01
+\invoice@language=\count80
+\l@afrikaans=\language3
+\l@dutch=\language4
+\l@estonian=\language5
+\l@finnish=\language6
+\l@french=\language7
+\l@german=\language8
+\l@italian=\language9
+\l@spanish=\language10
+\l@swedish=\language11
+\l@spanishe=\language12
+\l@spanishv=\language13
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/longtable.sty
+Package: longtable 2014/10/28 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip50
+\LTright=\skip51
+\LTpre=\skip52
+\LTpost=\skip53
+\LTchunksize=\count81
+\LTcapwidth=\dimen106
+\LT@head=\box26
+\LT@firsthead=\box27
+\LT@foot=\box28
+\LT@lastfoot=\box29
+\LT@cols=\count82
+\LT@rows=\count83
+\c@LT@tables=\count84
+\c@LT@chunks=\count85
+\c@table=\count86
+\LT@p@ftn=\toks15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count87
+\calc@Bcount=\count88
+\calc@Adimen=\dimen107
+\calc@Bdimen=\dimen108
+\calc@Askip=\skip54
+\calc@Bskip=\skip55
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count89
+\calc@Cskip=\skip56
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(/usr/share/texlive/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count90
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count91
+\FP@xia=\count92
+\FP@xib=\count93
+\FP@xfa=\count94
+\FP@xfb=\count95
+\FP@rega=\count96
+\FP@regb=\count97
+\FP@regs=\count98
+\FP@times=\count99
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count100
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(/usr/share/texlive/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+))
+(/usr/share/texlive/texmf-dist/tex/latex/invoice/invoice.def)
+\c@Fee=\count101
+\c@VAT=\count102
+\c@Expenses=\count103
+\c@Discount=\count104
+\c@Total=\count105
+\c@Project=\count106
+\c@Fee@ctr=\count107
+\c@Expense@ctr=\count108
+\c@One@Fee=\count109
+\c@One@VAT=\count110
+\c@One@Expense=\count111
+\c@ST@Fee=\count112
+\c@ST@VAT=\count113
+\c@ST@Expenses=\count114
+\c@ST@Project=\count115
+)
+(/usr/share/texlive/texmf-dist/tex/latex/blindtext/blindtext.sty
+Package: blindtext 2012/01/06 V2.0 blindtext-Package
+
+(/usr/share/texlive/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+\c@blindtext=\count116
+\c@Blindtext=\count117
+\c@blind@countparstart=\count118
+\blind@countxx=\count119
+\blindtext@numBlindtext=\count120
+\blind@countyy=\count121
+\c@blindlist=\count122
+\c@blindlistlevel=\count123
+\c@blindlist@level=\count124
+\blind@listitem=\count125
+\c@blind@listcount=\count126
+\c@blind@levelcount=\count127
+\blind@mathformula=\count128
+\blind@Mathformula=\count129
+\c@blind@randomcount=\count130
+\c@blind@randommax=\count131
+\c@blind@pangramcount=\count132
+\c@blind@pangrammax=\count133
+)
+(/usr/share/texlive/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2010/09/12 v5.6 Page Geometry
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifvtex.sty
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+\Gm@cnth=\count134
+\Gm@cntv=\count135
+\c@Gm@tempcnt=\count136
+\Gm@bindingoffset=\dimen109
+\Gm@wd@mp=\dimen110
+\Gm@odd@mp=\dimen111
+\Gm@even@mp=\dimen112
+\Gm@layoutwidth=\dimen113
+\Gm@layoutheight=\dimen114
+\Gm@layouthoffset=\dimen115
+\Gm@layoutvoffset=\dimen116
+\Gm@dimlist=\toks16
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/color.sty
+Package: color 2016/07/10 v1.1e Standard LaTeX Color (DPC)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 147.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(/usr/share/texlive/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+LaTeX Info: Redefining \color on input line 709.
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(/usr/share/texlive/texmf-dist/tex/latex/lipsum/lipsum.sty
+Package: lipsum 2014/07/27 v1.3 150 paragraphs of Lorem Ipsum dummy text
+\c@lips@count=\count137
+)
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2017/04/05 v2.0i Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 48.
+)) (./letter.aux)
+\openout1 = `letter.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 106.
+LaTeX Font Info:    ... okay on input line 106.
+LaTeX Font Info:    Try loading font information for T1+qcr on input line 106.
+
+(/usr/share/texmf/tex/latex/tex-gyre/t1qcr.fd
+File: t1qcr.fd 2009/09/25 v1.2 font definition file for T1/qcr
+)
+(/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count138
+\scratchdimen=\dimen117
+\scratchbox=\box30
+\nofMPsegments=\count139
+\nofMParguments=\count140
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count141
+\MPscratchDim=\dimen118
+\MPnumerator=\count142
+\makeMPintoPDFobject=\count143
+\everyMPtoPDFconversion=\toks18
+) (/usr/share/texlive/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/infwarerr.sty
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvdefinekeys.sty
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ltxcmds.sty
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+(/usr/share/texlive/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/kvsetkeys.sty
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/etexcmds.sty
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/ifluatex.sty
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+(/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
+Package: pdftexcmds 2018/01/21 v0.26 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(/usr/share/texlive/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(92.14519pt, 430.00462pt, 92.14519pt)
+* v-part:(T,H,B)=(113.81102pt, 585.7616pt, 95.39737pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=430.00462pt
+* \textheight=585.7616pt
+* \oddsidemargin=19.8752pt
+* \evensidemargin=19.8752pt
+* \topmargin=-117.26999pt
+* \headheight=113.81102pt
+* \headsep=45.0pt
+* \topskip=10.0pt
+* \footskip=25.0pt
+* \marginparwidth=90.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 2.0pt minus 4.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<qr.png, id=1, 1606.0pt x 1606.0pt>
+File: qr.png Graphic file (type png)
+<use qr.png>
+Package pdftex.def Info: qr.png  used on input line 116.
+(pdftex.def)             Requested size: 71.11511pt x 71.13188pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 116--116
+
+ []
+
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 116.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 116.
+LaTeX Font Info:    Font shape `T1/qcr/bx/n' in size <12> not available
+(Font)              Font shape `T1/qcr/b/n' tried instead on input line 116.
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 116--118
+\T1/qcr/m/n/10 elit, vestibu-lum ut, plac-erat ac, adip-isc-ing vi-tae, fe-lis.
+ Cur-abitur dic-
+ []
+
+
+Overfull \hbox (19.99538pt too wide) in paragraph at lines 116--118
+\T1/qcr/m/n/10 tum gravida mau-ris. Nam arcu libero, non-ummy eget, con-sectetu
+er id, vulpu-
+ []
+
+
+Overfull \hbox (19.99538pt too wide) in paragraph at lines 116--118
+\T1/qcr/m/n/10 tate a, magna. Donec ve-hic-ula au-gue eu neque. Pel-len-tesque 
+habi-tant morbi
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 116--118
+\T1/qcr/m/n/10 tris-tique senec-tus et ne-tus et male-suada fames ac turpis ege
+s-tas. Mau-ris
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 116--118
+\T1/qcr/m/n/10 ut leo. Cras viverra me-tus rhon-cus sem. Nulla et lec-tus vesti
+bu-lum urna
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 116--118
+\T1/qcr/m/n/10 fringilla ul-tri-ces. Phasel-lus eu tel-lus sit amet tor-tor gra
+vida plac-erat.
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 116--118
+\T1/qcr/m/n/10 In-te-ger sapien est, ia-c-ulis in, pretium quis, viverra ac, nu
+nc. Prae-sent
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 116--118
+\T1/qcr/m/n/10 eget sem vel leo ul-tri-ces biben-dum. Ae-nean fau-cibus. Morbi 
+do-lor nulla,
+ []
+
+
+Overfull \hbox (25.99538pt too wide) in paragraph at lines 116--118
+\T1/qcr/m/n/10 male-suada eu, pul-v-inar at, mol-lis ac, nulla. Cur-abitur auc-
+tor sem-per nulla.
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 116--118
+\T1/qcr/m/n/10 Donec var-ius orci eget risus. Duis nibh mi, congue eu, ac-cum-s
+an eleifend,
+ []
+
+
+Overfull \hbox (25.99538pt too wide) in paragraph at lines 118--118
+[]\T1/qcr/m/n/10 Nam dui ligula, fringilla a, eu-is-mod so-dales, sol-lic-i-tud
+in vel, wisi. Morbi
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 auc-tor lorem non justo. Nam la-cus libero, pretium at, lobor-ti
+s vi-tae, ul-
+ []
+
+
+Overfull \hbox (31.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 tricies et, tel-lus. Donec ali-quet, tor-tor sed ac-cum-san bibe
+n-dum, erat ligula
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 ali-quet magna, vi-tae ornare odio me-tus a mi. Morbi ac orci et
+ nisl hen-
+ []
+
+
+Overfull \hbox (25.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 drerit mol-lis. Sus-pendisse ut massa. Cras nec ante. Pel-len-te
+sque a nulla.
+ []
+
+
+Overfull \hbox (37.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 Cum sociis na-toque pe-nat-i-bus et mag-nis dis par-turi-ent mon
+tes, nasce-tur ridicu-
+ []
+
+
+Overfull \hbox (31.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 lus mus. Ali-quam tin-cidunt urna. Nulla ul-lam-cor-per vestibu-
+lum turpis. Pel-
+ []
+
+
+Overfull \hbox (19.99538pt too wide) in paragraph at lines 118--118
+[]\T1/qcr/m/n/10 Nulla male-suada port-ti-tor diam. Donec fe-lis erat, congue n
+on, vo-lut-pat at,
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 tin-cidunt tris-tique, libero. Vi-va-mus viverra fer-men-tum fe-
+lis. Donec non-
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 ummy pel-len-tesque ante. Phasel-lus adip-isc-ing sem-per elit. 
+Proin fer-men-
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 tum massa ac quam. Sed diam turpis, mo-lestie vi-tae, plac-erat 
+a, mo-lestie
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 nec, leo. Mae-ce-nas lacinia. Nam ip-sum ligula, eleifend at, ac
+-cum-san nec,
+ []
+
+
+Overfull \hbox (19.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 sus-cipit a, ip-sum. Morbi blan-dit ligula feu-giat magna. Nunc 
+eleifend con-
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 se-quat lorem. Sed lacinia nulla vi-tae enim. Pel-len-tesque tin
+-cidunt pu-
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 rus vel magna. In-te-ger non enim. Prae-sent eu-is-mod nunc eu p
+u-rus. Donec
+ []
+
+
+Overfull \hbox (19.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 biben-dum quam in tel-lus. Nul-lam cur-sus pul-v-inar lec-tus. D
+onec et mi. Nam
+ []
+
+<logo.png, id=2, 294.09875pt x 104.39pt>
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 118.
+(pdftex.def)             Requested size: 142.52553pt x 50.58878pt.
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+ <./logo.png> <./qr.png>]
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+[]\T1/qcr/m/n/10 Quisque ul-lam-cor-per plac-erat ip-sum. Cras nibh. Morbi vel 
+justo vi-tae la-
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 cus tin-cidunt ul-tri-ces. Lorem ip-sum do-lor sit amet, con-sec
+tetuer adip-isc-
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 ing elit. In hac habitasse platea dic-tumst. In-te-ger tem-pus c
+on-va-l-lis au-
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 gue. Etiam fa-cil-i-sis. Nunc el-e-men-tum fer-men-tum wisi. Ae-
+nean plac-erat.
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 Ut im-perdiet, enim sed gravida sol-lic-i-tudin, fe-lis odio pla
+c-erat quam, ac
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 pul-v-inar elit pu-rus eget enim. Nunc vi-tae tor-tor. Proin tem
+-pus nibh sit
+ []
+
+
+Overfull \hbox (25.99538pt too wide) in paragraph at lines 118--118
+[]\T1/qcr/m/n/10 Fusce mau-ris. Vestibu-lum luc-tus nibh at lec-tus. Sed biben-
+dum, nulla a fau-
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 cibus sem-per, leo velit ul-tricies tel-lus, ac ve-ne-natis arcu
+ wisi vel nisl.
+ []
+
+
+Overfull \hbox (19.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 Vestibu-lum diam. Ali-quam pel-len-tesque, au-gue quis sagit-tis
+ po-suere, turpis
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 la-cus congue quam, in hen-drerit risus eros eget fe-lis. Mae-ce
+-nas eget erat
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 in sapien mat-tis port-ti-tor. Vestibu-lum port-ti-tor. Nulla fa
+-cil-isi. Sed
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 a turpis eu la-cus com-modo fa-cil-i-sis. Morbi fringilla, wisi 
+in dig-nis-sim
+ []
+
+
+Overfull \hbox (31.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 in-ter-dum, justo lec-tus sagit-tis dui, et ve-hic-ula libero du
+i cur-sus dui. Mau-
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 ris tem-por ligula sed la-cus. Duis cur-sus enim ut au-gue. Cras
+ ac magna.
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 Cras nulla. Nulla eges-tas. Cur-abitur a leo. Quisque eges-tas w
+isi eget
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+[]\T1/qcr/m/n/10 Suspendisse vel fe-lis. Ut lorem lorem, in-ter-dum eu, tin-cid
+unt sit amet,
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 laoreet vi-tae, arcu. Ae-nean fau-cibus pede eu ante. Prae-sent 
+enim elit,
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 rutrum at, mo-lestie non, non-ummy vel, nisl. Ut lec-tus eros, m
+ale-suada sit
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 amet, fer-men-tum eu, so-dales cur-sus, magna. Donec eu pu-rus. 
+Quisque ve-
+ []
+
+
+Overfull \hbox (25.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 hic-ula, urna sed ul-tricies auc-tor, pede lorem eges-tas dui, e
+t con-va-l-lis elit
+ []
+
+
+Overfull \hbox (25.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 erat sed nulla. Donec luc-tus. Cur-abitur et nunc. Ali-quam do-l
+or odio, com-
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 modo pretium, ul-tricies non, phare-tra in, velit. In-te-ger arc
+u est, non-
+ []
+
+
+Overfull \hbox (25.99538pt too wide) in paragraph at lines 118--118
+[]\T1/qcr/m/n/10 Sed com-modo po-suere pede. Mau-ris ut est. Ut quis pu-rus. Se
+d ac odio. Sed
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 ve-hic-ula hen-drerit sem. Duis non odio. Morbi ut dui. Sed ac-c
+um-san risus
+ []
+
+
+Overfull \hbox (25.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 eget odio. In hac habitasse platea dic-tumst. Pel-len-tesque non
+ elit. Fusce
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 sed justo eu urna porta tin-cidunt. Mau-ris fe-lis odio, sol-lic
+-i-tudin sed,
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 vo-lut-pat a, ornare ac, erat. Morbi quis do-lor. Donec pel-len-
+tesque, erat
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 ac sagit-tis sem-per, nunc dui lobor-tis pu-rus, quis congue pu-
+rus me-tus ul-
+ []
+
+
+Overfull \hbox (49.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 tricies tel-lus. Proin et quam. Class aptent tac-iti so-ciosqu a
+d litora torquent
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 per conu-bia nos-tra, per in-cep-tos hy-menaeos. Prae-sent sapie
+n turpis, fer-
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+[]\T1/qcr/m/n/10 Pellentesque habi-tant morbi tris-tique senec-tus et ne-tus et
+ male-suada fames
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 ac turpis eges-tas. Donec odio elit, dic-tum in, hen-drerit sit 
+amet, eges-
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 tas sed, leo. Prae-sent feu-giat sapien ali-quet odio. In-te-ger
+ vi-tae justo.
+ []
+
+
+Overfull \hbox (25.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 Ali-quam vestibu-lum fringilla lorem. Sed neque lec-tus, con-sec
+tetuer at, con-
+ []
+
+
+Overfull \hbox (25.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 sectetuer sed, eleifend ac, lec-tus. Nulla fa-cil-isi. Pel-len-t
+esque eget lec-
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 tus. Proin eu me-tus. Sed port-ti-tor. In hac habitasse platea d
+ic-tumst.
+ []
+
+
+Overfull \hbox (19.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 Sus-pendisse eu lec-tus. Ut mi mi, lacinia sit amet, plac-erat e
+t, mol-lis vi-
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 tae, dui. Sed ante tel-lus, tris-tique ut, ia-c-ulis eu, male-su
+ada ac, dui.
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+[]\T1/qcr/m/n/10 Morbi luc-tus, wisi viverra fau-cibus pretium, nibh est plac-e
+rat odio, nec
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 com-modo wisi enim eget quam. Quisque libero justo, con-sectetue
+r a, feu-
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 giat vi-tae, port-ti-tor eu, libero. Sus-pendisse sed mau-ris vi
+-tae elit sol-
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 lic-i-tudin male-suada. Mae-ce-nas ul-tricies eros sit amet ante
+. Ut ve-ne-natis
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 velit. Mae-ce-nas sed mi eget dui var-ius eu-is-mod. Phasel-lus 
+ali-quet vo-lut-
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 pat odio. Vestibu-lum ante ip-sum primis in fau-cibus orci luc-t
+us et ul-tri-
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 ces po-suere cu-bilia Cu-rae; Pel-len-tesque sit amet pede ac se
+m eleifend con-
+ []
+
+
+Overfull \hbox (19.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 sectetuer. Nul-lam el-e-men-tum, urna vel im-perdiet so-dales, e
+lit ip-sum phare-
+ []
+
+
+Overfull \hbox (19.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 tra ligula, ac pretium ante justo a nulla. Cur-abitur tris-tique
+ arcu eu me-
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 tus. Vestibu-lum lec-tus. Proin mau-ris. Proin eu nunc eu urna h
+en-drerit
+ []
+
+
+Overfull \hbox (55.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 fau-cibus. Ali-quam auc-tor, pede con-se-quat laoreet var-ius, e
+ros tel-lus scelerisque
+ []
+
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 118.
+(pdftex.def)             Requested size: 142.52553pt x 50.58878pt.
+[2]
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+[]\T1/qcr/m/n/10 Suspendisse vi-tae elit. Ali-quam arcu neque, ornare in, ul-la
+m-cor-per quis,
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 com-modo eu, libero. Fusce sagit-tis erat at erat tris-tique mol
+-lis. Mae-
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 ce-nas sapien libero, mo-lestie et, lobor-tis in, so-dales eget,
+ dui. Morbi
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 ul-tri-ces rutrum lorem. Nam el-e-men-tum ul-lam-cor-per leo. Mo
+rbi dui. Ali-
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 quam sagit-tis. Nunc plac-erat. Pel-len-tesque tris-tique so-dal
+es est. Mae-
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 ce-nas im-perdiet lacinia velit. Cras non urna. Morbi eros pede,
+ sus-cipit
+ []
+
+
+Overfull \hbox (19.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 ac, var-ius vel, eges-tas non, eros. Prae-sent male-suada, diam 
+id pretium el-
+ []
+
+
+Overfull \hbox (19.99538pt too wide) in paragraph at lines 118--118
+[]\T1/qcr/m/n/10 Sed feu-giat. Cum sociis na-toque pe-nat-i-bus et mag-nis dis 
+par-turi-ent montes,
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 nasce-tur ridicu-lus mus. Ut pel-len-tesque au-gue sed urna. Ves
+tibu-lum diam
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 eros, fringilla et, con-sectetuer eu, non-ummy id, sapien. Nul-l
+am at lec-
+ []
+
+
+Overfull \hbox (25.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 tus. In sagit-tis ul-tri-ces mau-ris. Cur-abitur male-suada erat
+ sit amet massa.
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 Fusce blan-dit. Ali-quam erat vo-lut-pat. Ali-quam eu-is-mod. Ae
+-nean vel lec-
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+[]\T1/qcr/m/n/10 Etiam eu-is-mod. Fusce fa-cil-i-sis lacinia dui. Sus-pendisse 
+po-tenti. In mi
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 erat, cur-sus id, non-ummy sed, ul-lam-cor-per eget, sapien. Pra
+e-sent pretium,
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 magna in eleifend eges-tas, pede pede pretium lorem, quis con-se
+ctetuer tor-
+ []
+
+
+Overfull \hbox (19.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 tor sapien fa-cil-i-sis magna. Mau-ris quis magna var-ius nulla 
+scelerisque im-
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 perdiet. Ali-quam non quam. Ali-quam port-ti-tor quam a la-cus. 
+Prae-sent vel
+ []
+
+
+Overfull \hbox (19.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 arcu ut tor-tor cur-sus vo-lut-pat. In vi-tae pede quis diam bib
+en-dum plac-erat.
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 Fusce el-e-men-tum con-va-l-lis neque. Sed do-lor orci, sceleris
+que ac, dapibus
+ []
+
+
+Overfull \hbox (31.99538pt too wide) in paragraph at lines 118--118
+[]\T1/qcr/m/n/10 Aliquam lec-tus. Vi-va-mus leo. Quisque ornare tel-lus ul-lam-
+cor-per nulla. Mau-
+ []
+
+
+Overfull \hbox (25.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 ris port-ti-tor phare-tra tor-tor. Sed fringilla justo sed mau-r
+is. Mau-ris tel-
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 lus. Sed non leo. Nul-lam el-e-men-tum, magna in cur-sus so-dale
+s, au-gue est
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 scelerisque sapien, ve-ne-natis congue nulla arcu et pede. Ut su
+s-cipit enim
+ []
+
+
+Overfull \hbox (49.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 vel sapien. Donec congue. Mae-ce-nas urna mi, sus-cipit in, plac
+-erat ut, vestibu-
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+[]\T1/qcr/m/n/10 Etiam ac leo a risus tris-tique non-ummy. Donec dig-nis-sim ti
+n-cidunt nulla.
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 Vestibu-lum rhon-cus mo-lestie odio. Sed lobor-tis, justo et pre
+tium lobor-
+ []
+
+
+Overfull \hbox (19.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 tis, mau-ris turpis condi-men-tum au-gue, nec ul-tricies nibh ar
+cu pretium enim.
+ []
+
+
+Overfull \hbox (43.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 Nunc pu-rus neque, plac-erat id, im-perdiet sed, pel-len-tesque 
+nec, nisl. Vestibu-
+ []
+
+
+Overfull \hbox (19.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 lum im-perdiet neque non sem ac-cum-san laoreet. In hac habitass
+e platea dic-
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 tumst. Etiam condi-men-tum fa-cil-i-sis libero. Sus-pendisse in 
+elit quis nisl
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 ali-quam dapibus. Pel-len-tesque auc-tor sapien. Sed eges-tas sa
+pien nec lec-
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 tus. Pel-len-tesque vel dui vel neque biben-dum viverra. Ali-qua
+m port-ti-tor
+ []
+
+
+Overfull \hbox (43.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 nisl nec pede. Proin mat-tis libero vel turpis. Donec rutrum mau
+-ris et libero.
+ []
+
+
+Overfull \hbox (25.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 Proin eu-is-mod porta fe-lis. Nam lobor-tis, me-tus quis el-e-me
+n-tum com-modo, nunc
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 lec-tus el-e-men-tum mau-ris, eget vulpu-tate ligula tel-lus eu 
+neque. Vi-va-mus
+ []
+
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 118.
+(pdftex.def)             Requested size: 142.52553pt x 50.58878pt.
+[3]
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+[]\T1/qcr/m/n/10 Nulla in ip-sum. Prae-sent eros nulla, congue vi-tae, eu-is-mo
+d ut, com-modo a,
+ []
+
+
+Overfull \hbox (19.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 wisi. Pel-len-tesque habi-tant morbi tris-tique senec-tus et ne-
+tus et male-suada
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 fames ac turpis eges-tas. Ae-nean non-ummy magna non leo. Sed fe
+-lis erat,
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 ul-lam-cor-per in, dic-tum non, ul-tricies ut, lec-tus. Proin ve
+l arcu a odio
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 lobor-tis eu-is-mod. Vestibu-lum ante ip-sum primis in fau-cibus
+ orci luc-tus et
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 ul-tri-ces po-suere cu-bilia Cu-rae; Proin ut est. Ali-quam odio
+. Pel-len-tesque
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 massa turpis, cur-sus eu, eu-is-mod nec, tem-por congue, nulla. 
+Duis viverra
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 gravida mau-ris. Cras tin-cidunt. Cur-abitur eros ligula, var-iu
+s ut, pul-
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+[]\T1/qcr/m/n/10 Nulla mat-tis luc-tus nulla. Duis com-modo velit at leo. Ali-q
+uam vulpu-tate
+ []
+
+
+Overfull \hbox (31.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 magna et leo. Nam vestibu-lum ul-lam-cor-per leo. Vestibu-lum co
+ndi-men-tum rutrum
+ []
+
+
+Overfull \hbox (31.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 mau-ris. Donec id mau-ris. Morbi mo-lestie justo et pede. Vi-va-
+mus eget turpis
+ []
+
+
+Overfull \hbox (19.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 sed nisl cur-sus tem-por. Cur-abitur mol-lis sapien condi-men-tu
+m nunc. In wisi
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 nisl, male-suada at, dig-nis-sim sit amet, lobor-tis in, odio. A
+e-nean con-se-
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 quat arcu a ante. Pel-len-tesque porta elit sit amet orci. Etiam
+ at turpis
+ []
+
+
+Overfull \hbox (25.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 nec elit ul-tricies im-perdiet. Nulla fa-cil-isi. In hac habitas
+se platea dic-
+ []
+
+
+Overfull \hbox (25.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 tumst. Sus-pendisse viverra ali-quam risus. Nul-lam pede justo, 
+mo-lestie non-
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+[]\T1/qcr/m/n/10 Curabitur tel-lus magna, port-ti-tor a, com-modo a, com-modo i
+n, tor-tor. Donec
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 in-ter-dum. Prae-sent scelerisque. Mae-ce-nas po-suere so-dales 
+odio. Vi-va-mus
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 me-tus la-cus, var-ius quis, im-perdiet quis, rhon-cus a, turpis
+. Etiam ligula
+ []
+
+
+Overfull \hbox (31.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 arcu, el-e-men-tum a, ve-ne-natis quis, sol-lic-i-tudin sed, me-
+tus. Donec nunc pede,
+ []
+
+
+Overfull \hbox (25.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 tin-cidunt in, ve-ne-natis vi-tae, fau-cibus vel, nibh. Pel-len-
+tesque wisi. Nul-
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 lam male-suada. Morbi ut tel-lus ut pede tin-cidunt porta. Lorem
+ ip-sum do-
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 lor sit amet, con-sectetuer adip-isc-ing elit. Etiam congue nequ
+e id do-lor. 
+ []
+
+
+Overfull \hbox (19.99538pt too wide) in paragraph at lines 118--118
+[]\T1/qcr/m/n/10 Donec et nisl at wisi luc-tus biben-dum. Nam in-ter-dum tel-lu
+s ac libero. Sed
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 sem justo, laoreet vi-tae, fringilla at, adip-isc-ing ut, nibh. 
+Mae-ce-nas non
+ []
+
+
+Overfull \hbox (19.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 sem quis tor-tor eleifend fer-men-tum. Etiam id tor-tor ac mau-r
+is porta vulpu-
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 tate. In-te-ger porta neque vi-tae massa. Mae-ce-nas tem-pus lib
+ero a libero
+ []
+
+
+Overfull \hbox (1.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 po-suere dic-tum. Vestibu-lum ante ip-sum primis in fau-cibus or
+ci luc-tus et
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 ul-tri-ces po-suere cu-bilia Cu-rae; Ae-nean quis mau-ris sed el
+it com-modo plac-
+ []
+
+
+Overfull \hbox (13.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 erat. Class aptent tac-iti so-ciosqu ad litora torquent per conu
+-bia nos-tra,
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 per in-cep-tos hy-menaeos. Vi-va-mus rhon-cus tin-cidunt libero.
+ Etiam el-e-men-
+ []
+
+
+Overfull \hbox (7.99538pt too wide) in paragraph at lines 118--118
+\T1/qcr/m/n/10 tum pretium justo. Vi-va-mus est. Morbi a tel-lus eget pede tris
+-tique com-
+ []
+
+<sign.png, id=19, 629.35126pt x 433.62pt>
+File: sign.png Graphic file (type png)
+<use sign.png>
+Package pdftex.def Info: sign.png  used on input line 124.
+(pdftex.def)             Requested size: 123.88017pt x 85.35826pt.
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 127.
+(pdftex.def)             Requested size: 142.52553pt x 50.58878pt.
+[4]
+File: logo.png Graphic file (type png)
+<use logo.png>
+Package pdftex.def Info: logo.png  used on input line 127.
+(pdftex.def)             Requested size: 142.52553pt x 50.58878pt.
+ [5 <./sign.png>] (./letter.aux) ) 
+Here is how much of TeX's memory you used:
+ 4123 strings out of 494923
+ 53095 string characters out of 6180741
+ 239846 words of memory out of 5000000
+ 7355 multiletter control sequences out of 15000+600000
+ 5408 words of font info for 18 fonts, out of 8000000 for 9000
+ 14 hyphenation exceptions out of 8191
+ 41i,14n,43p,274b,448s stack positions out of 5000i,500n,10000p,200000b,80000s
+{/usr/share/texmf/fonts/enc/dvips/tex-gyre/q-
+ec.enc}</usr/share/texmf/fonts/type1/public/tex-gyre/qcrb.pfb></usr/share/texmf
+/fonts/type1/public/tex-gyre/qcrr.pfb>
+Output written on letter.pdf (5 pages, 248160 bytes).
+PDF statistics:
+ 35 PDF objects out of 1000 (max. 8388607)
+ 20 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
+

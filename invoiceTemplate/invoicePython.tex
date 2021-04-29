@@ -1,0 +1,136 @@
+\documentclass[a4paper]{letter}
+    \usepackage{graphicx}% The demo option creates a black box instead of a figure
+    \usepackage{fancyhdr}
+    \usepackage{invoice} 
+    \usepackage{blindtext}
+    \usepackage{geometry}
+    \usepackage{calc}
+    \usepackage{color}
+    \usepackage{xcolor}
+    \usepackage{lipsum}% The lipsum package provides dummy text
+    %\usepackage[T1]{fontenc}
+    
+    % https://texblog.org/2011/01/27/add-your-logo-to-the-title-page/
+    % ---------------------------------------------------------------
+    % Change default Font
+    \renewcommand{\sfdefault}{qcr}
+    \renewcommand{\familydefault}{\sfdefault}
+    \longindentation=0pt % Signature left aligned
+    
+    % ---------------------------------------------------------------
+    % Invoice new commads
+    \renewcommand{\Fees}{Products}
+    \renewcommand{\UnitRate}{Price}
+    \renewcommand{\Count}{Quantity}
+    \renewcommand{\Activity}{Product}
+    % ---------------------------------------------------------------
+    
+% ---------------------------------------------------------------
+% Your data
+\address{_}
+\telephone{_}
+% ---------------------------------------------------------------
+% Save standard definitions
+\let\HeadRule\headrule
+\let\FootRule\footrule
+
+\fancypagestyle{firstpage}{%
+    \renewcommand{\headrulewidth}{0.5pt}%
+    \renewcommand{\footrulewidth}{0.5pt}%
+    \renewcommand\headrule{\color{gray}\HeadRule} %\renewcommand{\footrule}{\hbox to\headwidth{\color{gray}\leaders\hrule height \footrulewidth\hfill}}
+    \renewcommand\footrule{\textcolor{gray}{\FootRule}}%
+    \fancyfootoffset{1 cm}%
+    \fancyheadoffset{1 cm}%
+    \fancyhf{}%
+    %\fancyhead[L]{\colorbox{black}{\parbox[b][\headheight-\baselineskip]{\headwidth}{\vfil{}\color{white} a\\a \vfil}}}%
+    \fancyhead[C]{\vfil\includegraphics[height=0.7in, keepaspectratio=true]{logow.png} \\PoCs. Made. Simple.\hspace*{1.5ex} \vfil }%
+    \fancyfoot[C]{{\fontfamily{qcr}\selectfont\color{gray}Dr.-Ing. Christian Peeren - christian.peeren@gmail.com \\ Krefelder Str.9 47918 Toenisvorst Germany}}
+}%
+\fancypagestyle{empty}{%
+    \renewcommand{\headrulewidth}{0.5pt}%
+    \renewcommand{\footrulewidth}{0.5pt}%
+    \renewcommand\headrule{\color{gray}\HeadRule} %\renewcommand{\footrule}{\hbox to\headwidth{\color{gray}\leaders\hrule height \footrulewidth\hfill}}
+    \renewcommand\footrule{\textcolor{gray}{\FootRule}}%
+    \fancyfootoffset{1 cm}%
+    \fancyheadoffset{1 cm}%
+    \fancyhf{}%
+    %\fancyhead[L]{\colorbox{black}{\parbox[b][\headheight-\baselineskip]{\headwidth}{\vfil{}\color{white} a\\a \vfil}}}%
+    \fancyhead[C]{\vfil\includegraphics[height=0.7in, keepaspectratio=true]{logow.png} \\PoCs. Made. Simple.\hspace*{1.5ex} \vfil }%
+    \fancyfoot[C]{{\fontfamily{qcr}\selectfont\color{gray}Dr.-Ing. Christian Peeren - christian.peeren@gmail.com \\ Krefelder Str.9 47918 Toenisvorst Germany}}
+}%
+\fancypagestyle{plain}{%
+    \renewcommand{\headrulewidth}{0.5pt}%
+    \renewcommand{\footrulewidth}{0.5pt}%
+    \renewcommand\headrule{\color{gray}\HeadRule} %\renewcommand{\footrule}{\hbox to\headwidth{\color{gray}\leaders\hrule height \footrulewidth\hfill}}
+    \renewcommand\footrule{\textcolor{gray}{\FootRule}}%
+    \fancyfootoffset{1 cm}%
+    \fancyheadoffset{1 cm}%
+    \fancyhf{}%
+    %\fancyhead[L]{\colorbox{black}{\parbox[b][\headheight-\baselineskip]{\headwidth}{\vfil{}\color{white} a\\a \vfil}}}%
+    \fancyhead[C]{\vfil\includegraphics[height=0.7in, keepaspectratio=true]{logow.png} \\PoCs. Made. Simple.\hspace*{1.5ex} \vfil }%
+    \fancyfoot[C]{{\fontfamily{qcr}\selectfont\color{gray}Dr.-Ing. Christian Peeren - christian.peeren@gmail.com \\ Krefelder Str.9 47918 Toenisvorst Germany}}
+}%
+\setlength{\fboxsep}{0pt}
+\geometry{top = 5cm, headheight = 4cm}
+\fancyhfoffset[L]{\oddsidemargin + \hoffset + 1in}
+\fancyhfoffset[R]{\evensidemargin + \marginparwidth - \marginparsep}
+% ---------------------------------------------------------------
+
+% Address next to recepient
+\makeatletter
+\renewcommand*{\opening}[1]{\ifx\@empty\fromaddress%
+  \thispagestyle{firstpage}%
+    {\raggedleft\@date\par}%
+  \else% home address
+   \thispagestyle{empty}%
+   {%
+    \begin{minipage}[c]{0.50\linewidth}
+    \textbf{Bill to:}\\
+Yolo Gmbh2\\Ser Olfe2\\Fat Beats Str 223\\34192 Lol City\\Germany\\[0.5em]%
+    \textbf{Ship to:}\\[0.1em]%\n
+Yolo Gmbh\\Ser Olfe\\Fat Beats Str 123\\34192 Lol City\\Germany\\[0.5em]%
+    \end{minipage}
+    \begin{minipage}[c]{0.45\linewidth}
+    \raggedleft\begin{tabular}{l@{}}\ignorespaces
+    https://byte87.net\\%
+    Customer ID: 123\\%
+    Project  ID: 1, 2\\%
+    Invoice ID: 1337\\%
+    \includegraphics[height=2.5cm, keepaspectratio=true]{qr.png}\\[0.2em]%
+    Invoice date: August 10, 2020\\
+    Due date: August 20, 2020\\
+    \end{tabular}
+    \end{minipage}
+    \par
+}%
+  \fi
+  \vspace{2\parskip}%
+  #1\par\nobreak}
+\makeatother
+% ---------------------------------------------------------------
+% Start the document
+% ---------------------------------------------------------------
+\pagestyle{plain}
+\begin{document}%
+    \begin{letter}{%
+Yolo Gmbh\\Ser Olfe\\Fat Beats Str 123\\34192 Lol City\\Germany
+}%
+%
+\opening{{\large \bf INVOICE} \\[1.0cm] Dear \toname{},}\hfil\\%
+thank you very much for your order: %
+\begin{invoice}{Euro}{19.0}
+\ProjectTitle{1 - myawsomeproject} 
+\Fee{Job1}{3}{3}%
+\Discount{Family and Friends}{23}%
+\EFC{Hotel}{Dollar}{323}{0.82}{}%
+\end{invoice}%
+\begin{invoice}{Euro}{19.0}
+\ProjectTitle{2 - myawsomeproject2} 
+\Fee{Job1}{3}{3}%
+\Discount{Family and Friends}{23}%
+\EFC{Hotel}{Dollar}{323}{0.82}{}%
+\end{invoice}%
+Please include the invoice number on your check. %
+\end{letter}%
+\end{document}%
+

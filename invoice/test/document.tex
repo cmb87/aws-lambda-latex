@@ -1,0 +1,137 @@
+\documentclass{letter}
+\usepackage{graphicx}% The demo option creates a black box instead of a figure
+\usepackage{fancyhdr}
+\usepackage{invoice} 
+\usepackage{blindtext}
+\usepackage{geometry}
+\usepackage{calc}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage[T1]{fontenc}
+
+% https://texblog.org/2011/01/27/add-your-logo-to-the-title-page/
+% ---------------------------------------------------------------
+% Change default Font
+\renewcommand{\sfdefault}{qcr}
+\renewcommand{\familydefault}{\sfdefault}
+\longindentation=0pt % Signature left aligned
+% ---------------------------------------------------------------
+% Your data
+\address{\color{black}{\large \bf byte87} \\Dr.-Ing. Christian Peeren\\Krefelder Str.9\\47918 T\"onisvorst\\Germany}
+\telephone{(555) 555-5555}
+
+% ---------------------------------------------------------------
+% Invoice new commads
+\renewcommand{\Fees}{Products}
+\renewcommand{\UnitRate}{Price}
+\renewcommand{\Count}{Quantity}
+\renewcommand{\Activity}{Product}
+
+% ---------------------------------------------------------------
+% Address next to recepient
+\makeatletter
+\renewcommand*{\opening}[1]{\ifx\@empty\fromaddress%
+  \thispagestyle{firstpage}%
+    {\raggedleft\@date\par}%
+  \else% home address
+   \thispagestyle{empty}%
+   {%
+    \begin{minipage}[c]{0.50\linewidth}
+    \includegraphics[height=2.5cm, keepaspectratio=true]{qr.png}\\ 
+    \toname \\
+    \toaddress\\[0.1em]
+    Customer ID: 123\\[1.1em]%
+    \end{minipage}
+    \begin{minipage}[c]{0.45\linewidth}
+    \raggedleft\begin{tabular}{l@{}}\ignorespaces
+    \fromaddress\\[2.9em]% replace 0.0em with space desired before date
+    \@date
+    \end{tabular}
+    \end{minipage}
+    \par
+}%
+  \fi
+  \vspace{2\parskip}%
+  #1\par\nobreak}
+\makeatother
+
+% ---------------------------------------------------------------
+% Save standard definitions
+\let\HeadRule\headrule
+\let\FootRule\footrule
+
+\fancypagestyle{firstpage}{%
+    \renewcommand{\headrulewidth}{0pt}%
+    \renewcommand{\footrulewidth}{0.5pt}%
+    \renewcommand\headrule{\color{gray}\HeadRule} %\renewcommand{\footrule}{\hbox to\headwidth{\color{gray}\leaders\hrule height \footrulewidth\hfill}}
+    \renewcommand\footrule{\textcolor{gray}{\FootRule}}%
+    \fancyfootoffset{1 cm}%
+    \fancyhf{}%
+    \fancyhead[L]{\colorbox{black}{\parbox[b][\headheight-\baselineskip]{\headwidth}{\vfil{}\color{white} a\\a \vfil}}}%
+    \fancyhead[C]{\vfil\includegraphics[height=0.7in, keepaspectratio=true]{logo.png}\hspace*{1.5ex}\vfil}%
+    \fancyfoot[C]{{\fontfamily{qcr}\selectfont\color{gray}Dr.-Ing. Christian Peeren - christian.peeren@gmail.com \\ Sparkasse Krefeld - IBAN: DE49 3200 0000 0065 7539 17 - BIC: DESPKRDE33XX \\ https://byte87.net}}
+}%
+\fancypagestyle{empty}{%
+    \renewcommand{\headrulewidth}{0pt}%
+    \renewcommand{\footrulewidth}{0.5pt}%
+    \renewcommand\headrule{\color{gray}\HeadRule} %\renewcommand{\footrule}{\hbox to\headwidth{\color{gray}\leaders\hrule height \footrulewidth\hfill}}
+    \renewcommand\footrule{\textcolor{gray}{\FootRule}}%
+    \fancyfootoffset{1 cm}%
+    \fancyhf{}%
+    \fancyhead[L]{\colorbox{black}{\parbox[b][\headheight-\baselineskip]{\headwidth}{\vfil{}\color{white} a\\a \vfil}}}%
+    \fancyhead[C]{\vfil\includegraphics[height=0.7in, keepaspectratio=true]{logo.png}\hspace*{1.5ex}\vfil}%
+    \fancyfoot[C]{{\fontfamily{qcr}\selectfont\color{gray}Dr.-Ing. Christian Peeren - christian.peeren@gmail.com \\ Sparkasse Krefeld - IBAN: DE49 3200 0000 0065 7539 17 - BIC: DESPKRDE33XX \\ https://byte87.net}}
+}%
+\fancypagestyle{plain}{%
+    \renewcommand{\headrulewidth}{0pt}%
+    \renewcommand{\footrulewidth}{0.5pt}%
+    \renewcommand\headrule{\color{gray}\HeadRule} %\renewcommand{\footrule}{\hbox to\headwidth{\color{gray}\leaders\hrule height \footrulewidth\hfill}}
+    \renewcommand\footrule{\textcolor{gray}{\FootRule}}%
+    \fancyfootoffset{1 cm}%
+    \fancyhf{}%
+    \fancyhead[L]{\colorbox{black}{\parbox[b][\headheight-\baselineskip]{\headwidth}{\vfil{}\color{white} a\\a \vfil}}}%
+    \fancyhead[C]{\vfil\includegraphics[height=0.7in, keepaspectratio=true]{logo.png}\hspace*{1.5ex}\vfil}%
+    \fancyfoot[C]{{\fontfamily{qcr}\selectfont\color{gray}Dr.-Ing. Christian Peeren - christian.peeren@gmail.com \\ Sparkasse Krefeld - IBAN: DE49 3200 0000 0065 7539 17 - BIC: DESPKRDE33XX \\ https://byte87.net}}
+}
+
+
+\setlength{\fboxsep}{0pt}
+\geometry{top = 4cm, headheight = 4cm}
+\fancyhfoffset[L]{\oddsidemargin + \hoffset + 1in}
+\fancyhfoffset[R]{\evensidemargin + \marginparwidth - \marginparsep}
+% ---------------------------------------------------------------
+
+\pagestyle{plain}
+\begin{document}%
+    \begin{letter}{%
+            LOL und ROFL GmbH\\%
+            Some Department\\%
+            Some University\\%
+            Some Road\\%
+        }%
+%
+%       \includegraphics[height=2.5cm, keepaspectratio=true]{qr.png}\par%
+%       
+        \opening{{\large \bf INVOICE ID 101} \\[1.0cm] Dear \toname{},}\hfil
+%
+            \begin{invoice}{Euro}{19} 
+            \ProjectTitle{Example Project} 
+            \Fee{LOL1} {1.40} {1} 
+            \Fee{LOL3} {14.40} {1}
+            \Fee{LOL1} {1.40} {1} 
+            \Fee{LOL2} {2.40} {1} 
+            \Fee{LOL3} {14.40} {1}
+            \EFC{Hotel}{EUro}{300}{0.82}{}
+            \EFC{Flight}{Dollar}{12324}{1.3}{}
+            \Discount{Family and Friends}{3}
+            \end{invoice} 
+
+        % Closing
+        \closing{Yours faithfully,\\
+        \fromsig{\includegraphics[height=3.0cm, keepaspectratio=true]{sign.png}} \\
+        \fromname{Dr.-Ing. Christian Peeren}
+        }
+        
+        
+    \end{letter}%
+\end{document}%
